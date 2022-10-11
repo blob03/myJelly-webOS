@@ -1,14 +1,15 @@
 
 
-# webOS application for myJelly.
-<h1 align="center">myJelly-webOS</h1>
-<h2 align="center">webOS wrapper modified to supplement myJelly.</h2>
+# myJelly-webOS
+webOS wrapper modified to supplement myJelly.
 
-Homepage for Jellyfin LG launcher: https://github.com/jellyfin/jellyfin-webos
+links to original repositories:
+
+Jellyfin LG launcher: https://github.com/jellyfin/jellyfin-webos
 <br>
-Homepage for the official web client: https://github.com/jellyfin/jellyfin-web
+Official web client: https://github.com/jellyfin/jellyfin-web
 <br>
-Homepage for Jellyfin server: https://github.com/jellyfin/jellyfin
+Jellyfin server: https://github.com/jellyfin/jellyfin
 <br>
 
 # Jellyfin for webOS
