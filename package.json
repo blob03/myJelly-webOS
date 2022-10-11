@@ -1,0 +1,24 @@
+{
+	"name": "myJelly-webOS",
+	"version": "1.1.0-1",
+	"description": "Modified Jellyfin WebOS client",
+	"repository": "https://github.com/blob03/myJelly-webOS",
+	"scripts": {
+		"check": "ares-package --check",
+		"package": "ares-package --no-minify --outdir build/ services frontend",
+		"clean": "rm -rf build/",
+		"deploy": "ares-install build/org.jellyfin.webos_${npm_package_version}_all.ipk",
+		"launch": "ares-launch org.jellyfin.webos",
+		"manifest": "node tools/gen-manifest.js build/org.jellyfin.webos.manifest.json",
+		"version": "node tools/sync-version.js && git add frontend/appinfo.json",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jellyfin contributors",
+	"license": "MPL-2.0",
+	"devDependencies": {
+		"@webosose/ares-cli": "^2.1.0"
+	},
+	"dependencies": {
+		"material-design-icons-iconfont": "6.7.0"
+	}
+}
