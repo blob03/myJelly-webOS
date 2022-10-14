@@ -3,10 +3,10 @@
 const fs = require('fs');
 
 const packageInfo = JSON.parse(fs.readFileSync('package.json'));
-const appInfo = JSON.parse(fs.readFileSync('frontend/appinfo.json'));
+const appInfo = JSON.parse(fs.readFileSync('src/appinfo.json'));
 
 fs.writeFileSync(
-  'frontend/appinfo.json',
+  'src/appinfo.json',
   `${JSON.stringify(
     {
       ...appInfo,

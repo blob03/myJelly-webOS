@@ -75,9 +75,9 @@ Now you can package the app by running
 
 ```sh
 # Build the package via Docker
-./dev.sh ares-package --no-minify services frontend
+./dev.sh ares-package --no-minify services src
 # Build the package with natively installed WebOS SDK
-ares-package --no-minify services frontend
+ares-package --no-minify services src
 ```
 
 ## Usage

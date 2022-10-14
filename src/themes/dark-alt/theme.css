@@ -1,0 +1,1425 @@
+
+@font-face {
+	font-family: "Shangai";
+    src: url("fonts/shanghai.ttf") format("truetype"); 
+}
+
+* {
+	scrollbar-color: #3e3e3e #2c2c2c;
+	scrollbar-width: thin;
+}
+
+.skinHeader,
+html {
+    color: #8997ae;
+	background-color: #202020;
+}
+
+::-moz-selection { 
+	color: #ffa700;
+	background: #000;
+}
+
+::selection {
+	color: #202020;
+	background: #fff;
+}
+
+.wizardStartForm,
+.ui-corner-all,
+.ui-shadow {
+    background-color: #303030;
+}
+
+.emby-collapsible-button {
+    border-color: #ccc;
+    border-color: rgba(0, 0, 0, 0.158);
+}
+
+.collapseContent {
+    background-color: #eaeaea;
+}
+
+.skinHeader-withBackground {
+	background-color: #202020;
+    color: #fff;
+    -webkit-box-shadow: 0 0.0725em 0.29em 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 0.0725em 0.29em 0 rgba(0, 0, 0, 0.37);
+	overflow: visible;
+}
+
+.osdHeader {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.skinHeader.semiTransparent {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background-color: rgba(40, 40, 40, .8);
+}
+
+.layout-tv .skinHeader.semiTransparent {
+    background-color: #202020;
+}
+
+.pageTitleWithDefaultLogo {
+    background-image: url(../../assets/img/banner-light.png);
+}
+
+.layout-tv .pageTitleWithDefaultLogo {
+    background-image: url(../../assets/img/icon-transparent.png);
+}
+
+.backgroundContainer {
+	background-color: rgba(21, 21, 21, 0.9);
+}
+
+.backgroundContainer.withBackdrop {
+    background-color: rgba(21, 21, 21, 0.8);
+}
+
+.backgroundContainer.withThemeBackdrop {
+    background-color: rgba(21, 21, 21, 0.7);
+}
+
+.backdropImage {
+    background-color: rgb(40, 40, 40) !important;
+}
+
+.backdropImage.themeBackdrop {
+	background-image: url(./img/bg.jpg) !important;
+}
+
+.backdropImage.themeBackdrop.alt1 {
+	background-image: url(./img/bg.jpg) !important;
+}
+
+.backdropImage.themeBackdrop.alt2 {
+	background-image: url(./img/bg-alt1.jpg) !important;
+}
+
+.backdropImage.themeBackdrop.alt3 {
+	background-image: url(./img/bg-alt2.jpg) !important;
+}
+
+.backdropImage.themeBackdrop.alt4 {
+	background-image: url(./img/bg-alt3.jpg) !important;
+}
+
+.dialog,
+.nowPlayingPlaylist,
+.nowPlayingContextMenu {
+    background-color: #202020 !important;
+}
+
+.emby-scrollbuttons .paper-icon-button-light {
+    color: #000;
+}
+
+.fab,
+.raised {
+    color: inherit;
+}
+
+.fab:focus,
+.raised:focus {
+    background-color: rgba(117, 133, 144, 0.8) !important;
+	color: rgba(255, 232, 232, 0.8);
+}
+
+.button-link:hover {
+	color: #fff !important;
+}
+
+.formDialogFooter:not(.formDialogFooter-clear) {
+    background-color: #202020;
+    border-top: 1px solid #ddd;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    color: inherit;
+}
+	
+.actionsheetDivider {
+    background: rgb(44, 46, 48);
+}
+
+.formDialogHeader a {
+    color: #fff;
+}
+
+.toast {
+    background: #eee;
+    color: #000;
+}
+
+.appfooter,
+.playlistSectionButton {
+    background: #202020;
+    color: #fff;
+}
+
+.nowPlayingBarSecondaryText {
+    color: #999;
+}
+
+.itemSelectionPanel {
+    border: 1px solid #00a4dc;
+}
+
+.selectionCommandsPanel {
+    background: #00a4dc;
+    color: #fff;
+}
+
+.upNextDialog-countdownText {
+    color: #00a4dc;
+}
+
+.alphaPickerButton {
+	color: #888;
+	background-color: transparent;
+	font-weight: 600;
+}
+
+.alphaPickerButton-selected {
+    background-color: #cecfcf !important;
+    color: #000 !important;
+}
+
+.alphaPickerButton:hover {
+	color: #fff !important;
+	background-color: transparent;
+}
+
+.detailTableBodyRow-shaded:nth-child(even) {
+    background: #34383c;
+}
+
+.progressring-spiner {
+    border-color: #00a4dc;
+}
+
+.mediaInfoText {
+    color: #333;
+    background: #fff;
+}
+
+.emby-input,
+.emby-textarea {
+	color: #383e4a !important;
+	font-weight: 600;
+	font-style: italic;
+	background-color: #5d676c;
+	border: 0.2em ridge rgb(66, 68, 71);
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+}
+
+.emby-input::placeholder,
+.emby-textarea::placeholder {
+  color: #b4b3b1;
+}
+
+.emby-input:focus,
+.emby-textarea:focus {
+	border-color: #ccc;
+	outline: 0px !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+}
+
+.itemProgressBarForeground {
+    background-color: #e2dec6;
+}
+
+.itemProgressBarForeground-recording {
+    background-color: #cb272a;
+}
+
+.countIndicator,
+.fullSyncIndicator,
+.playedIndicator,
+.mediaSourceIndicator,
+.indicator {
+	color: #6a6344;
+	background: White;
+	box-shadow: 0px 2px 8px #1e1d25;
+	text-shadow: 1px 1px 3px #727272;
+}
+
+.fullSyncIndicator {
+    color: #fff;
+}
+
+.mainDrawer {
+    background: #282828;
+}
+
+.channelPrograms,
+.guide-channelHeaderCell,
+.programCell {
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.programCell-sports {
+    background: #3949ab !important;
+}
+
+.programCell-movie {
+    background: #5e35b1 !important;
+}
+
+.programCell-kids {
+    background: #039be5 !important;
+}
+
+.programCell-news {
+    background: #43a047 !important;
+}
+
+.programCell-active {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.guide-channelHeaderCell:focus,
+.programCell:focus {
+    background-color: #968b5b !important;
+    color: #fff !important;
+}
+
+.guide-programTextIcon {
+    color: #1e1e1e;
+    background: #555;
+}
+
+.guide-headerTimeslots {
+    color: inherit;
+}
+
+.guide-date-tab-button {
+    color: #555;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.guide-date-tab-button.emby-tab-button-active,
+.guide-date-tab-button:focus {
+    color: #968b5b;
+}
+
+.guide-date-tab-button.show-focus:focus {
+    background-color: #968b5b;
+    color: #fff;
+}
+
+.infoBanner {
+    color: #000;
+    background: #fff3a5;
+    padding: 1em;
+    -webkit-border-radius: 0.25em;
+    border-radius: 0.25em;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+    color: #4285f4;
+}
+
+.buttonActive {
+    color: #968b5b !important;
+}
+
+.cardBox:not(.visualCardBox) .cardPadder {
+    background-color: #292e33;
+}
+
+.card:focus .cardBox.visualCardBox,
+.card:focus .cardBox:not(.visualCardBox) .cardScalable {
+	border-color: #909090 !important;
+} 
+ 
+.metadataSidebarIcon {
+    color: #968b5b;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #2c2c2c;
+}
+
+.layout-desktop ::-webkit-scrollbar,
+.layout-tv ::-webkit-scrollbar {
+    width: 1em;
+    height: 1em;
+}
+
+::-webkit-scrollbar-thumb:horizontal,
+::-webkit-scrollbar-thumb:vertical {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: center no-repeat #3e3e3e;
+}
+
+/* Buttons */
+
+@keyframes focus {
+	to {transform: scale(1.3);}
+}
+
+.homeLibraryButton {
+	color: #747a7f !important;
+	background-color: rgba(57, 57, 57, 0.6);
+	box-shadow: 0 0 2px #857f7f;
+	font-weight: 600;
+}
+
+.homeLibraryButton:hover:not(:disabled) {
+	color: #d7e9eb !important;
+	background-color: rgba(36, 43, 48, 0.8) !important;
+	box-shadow: 0 0 2px #060606, 0 0 4px #4c4645, 0 0 6px #fff, 0 0 8px #fff, 0 0 17px #fcfcfc, 0 0 25px #fcfcfb, 0 0 38px #bfd2da;
+}
+
+.homeLibraryButton:focus {
+	color: #fff !important;
+	background-color: rgba(94, 106, 136, 0.2) !important;
+	transform: scale(1.1) !important;
+	box-shadow: 0 0 8px #282828, 1px 1px 18px #282828;
+}
+
+.material-icons {
+	color: #fff;
+	text-shadow: 1px 1px 4px #39392d;
+}
+
+.material-icons.navMenuOptionIcon.notifications {
+	background-color: transparent !important;
+	color: #fff !important;
+}
+
+.material-icons.notifications {
+	background-color: #646c70 !important;
+	color: rgb(175, 184, 193) !important;
+}
+
+.homeLibraryButton > .material-icons {
+	color: #a5a5a5;
+	text-shadow: 0 0 4px #39392d;	
+}
+
+.homeLibraryButton:hover > .material-icons,
+.indicatorIcon.material-icons {
+	color: #a4adb6;
+	text-shadow: 0 0 4px #39392d;	
+}
+
+.homeLibraryButton:focus > .material-icons {
+	color: #ccc;
+	text-shadow: 0 0 4px #39392d;	
+}
+
+.indicatorIcon.material-icons {
+	color: #000;
+	text-shadow: 0 0 4px #39392d;	
+}
+
+.listItemBody {
+	color: rgb(117, 129, 138);
+}
+
+.listItem-border {
+    border-color: #2b2b2b !important;
+}
+ 
+ .emby-button {
+	color: #909090;
+ }
+ 
+.dashboardActionsContainer > .emby-button,
+.sectionTitleContainer > .emby-button {
+	color: #ccc;
+ }
+ 
+.emby-button:hover:not(:disabled) {
+	color: #fff;
+}
+
+.emby-button.show-focus:focus > .listItem > .listItemBody {
+	background-color: transparent;
+}
+
+.emby-button:active {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/* headerButton + detail button */
+
+@keyframes buttonfocus {
+	from {transform: scale(1.0);}
+	80% {transform: scale(1.4);}
+	to {transform: scale(1.3);}
+}
+
+.detailButton:focus,
+.headerButton:focus
+ {
+	color: #efe4aa;
+	background-color:transparent;
+	overflow: visible;
+	animation-name: buttonfocus;
+	animation-duration: .15s;
+	transform: scale(1.3);
+}
+
+.detailButton:hover:not(:disabled),
+.headerButton:active:not(:disabled),
+.detailButton:active:not(:disabled),
+.headerButton:hover:not(:disabled) {
+	overflow: visible;
+	color: #efe4aa;
+}
+
+
+.detailButton > * > .material-icons,
+.headerButton > .material-icons {
+	color: rgb(175, 184, 193);
+}
+
+.cardOverlayButtonIcon.material-icons:hover  {
+	text-shadow: 0 0 5px #060606, 0 0 10px #4c4645, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fcfcfc, 0 0 30px #fcfcfb, 0 0 55px #ffffff;
+	color: #fff;
+}
+
+.detailButton:focus > * > .material-icons,
+.detailButton:hover > * > .material-icons,
+.detailButton:active > * > .material-icons,
+.headerButton:focus > .material-icons,
+.headerButton:hover > .material-icons,
+.headerButton:active > .material-icons {
+	text-shadow: 0 0 5px #060606, 0 0 10px #4c4645, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fcfcfc, 0 0 30px #fcfcfb, 0 0 55px #ffffff;
+	color: #fff;
+}
+
+/* listItem */
+
+.listItem {
+	overflow: visible;
+}
+
+.listItem > .material-icons {
+	color: rgb(175, 184, 193);
+}
+
+.listItem:focus > .listItemBody,
+.listItem:hover > .listItemBody {
+	color: #a8c3d0;
+}
+
+.listItem:focus > .material-icons,
+.listItem:hover > .material-icons,
+.listItem:active > .material-icons {
+	text-shadow: 0 0 5px #060606, 0 0 10px #4c4645, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fcfcfc, 0 0 30px #fcfcfb, 0 0 35px #01cdfc;
+	color: #fff;
+}
+
+/* slider widget */
+
+.mdl-slider {
+	background: transparent;
+}
+
+.mdl-slider-background,
+.mdl-slider-background-flex {
+	box-shadow: 1px 2px 8px #1e1d25;
+	background: #353535;
+}
+
+.mdl-slider:focus,
+.mdl-slider:hover:not(:disabled),
+.mdl-slider:active {
+	background-color: rgba(100, 100, 100, 0.1);
+}
+
+.mdl-slider-background-lower  {
+	background: linear-gradient(135deg, rgb(47, 51, 64) 0%, rgb(68, 89, 116) 50%, rgb(255, 255, 255) 100%);
+}
+
+.mdl-slider::-moz-range-thumb {
+	box-shadow: 0px 2px 8px #1e1d25;
+	background: #888;
+}
+
+.mdl-slider::-ms-thumb {
+	box-shadow: 0px 2px 8px #1e1d25;
+	background: #888;
+}
+
+.mdl-slider::-webkit-slider-thumb {
+	box-shadow: 0px 2px 8px #1e1d25;
+	background: #888;
+}
+
+.mdl-slider:focus::-moz-range-thumb,
+.mdl-slider:hover:not(:disabled)::-moz-range-thumb {
+	box-shadow: 0px 2px 8px #1e1d25;
+	background: #ccc;
+}
+
+.mdl-slider:focus::-ms-thumb,
+.mdl-slider:hover:not(:disabled)::-ms-thumb {
+	box-shadow: 0px 2px 8px #1e1d25;
+	background: #ccc;
+}
+
+.mdl-slider:focus::-webkit-slider-thumb,
+.mdl-slider:hover:not(:disabled)::-webkit-slider-thumb {
+	box-shadow: 0px 2px 8px #1e1d25;
+	background: #ccc;
+}
+
+.mdl-slider-container {
+    height: 0.83em !important;
+}
+
+.sliderBubbleText {
+	font-family: "Shangai";
+	font-size: 170% !important;
+}
+
+.sliderBubble {
+	background: #282d32;
+	color: #ccc;
+	border-radius: 62px;
+	border: .2em ridge #474c52;
+}
+
+
+
+/* dashboard menu */
+
+.navMenuOption:hover:not(:disabled) {
+	background: #84989f !important;
+	color: rgba(155, 155, 155, 0.8) !important;
+}
+
+.navMenuOption:focus {
+	background: #84989f !important;
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navMenuOption:active {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navMenuOption-selected {
+	background: rgba(90, 105, 120, 0.8) !important;
+	color: #292929;
+}
+
+/* top bar clock style */
+
+.headerClockButton {
+	padding:0px;
+}
+
+.headerClock,
+.headerClock > .material-icons {
+	color: rgba(121, 135, 144, 0.8) !important;
+	text-shadow: 1px 1px 8px #1f2443 !important;
+}
+
+.headerClockMode1 {
+	font-size: 120% !important;
+}
+
+.headerClockMode2 {
+	font-size: 140% !important;
+}
+
+.headerClockMode3 {
+	font-size: 160% !important;
+}
+	
+.headerClockTime {
+	font-family: "Shangai";
+	font-size: 170% !important;
+}
+
+.headerClockDate {
+	font-size: 70% !important;
+}
+
+.nightMode > * {
+	color: #d7e2e9;
+	text-shadow: 0 0 10px #060606, 0 0 20px #4c4645, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fcfcfc, 0 0 60px #fcfcfb, 0 0 70px #01cdfc;
+}
+
+.headerClockButton:hover > .headerClockTime,
+.headerClockButton:focus > .headerClockTime {
+	font-size: 170% !important;
+}
+
+.headerClockButton:hover > .headerClockDate,
+.headerClockButton:focus > .headerClockDate {
+	font-size: 80% !important;
+}
+
+/* Tab About... */
+
+.abouttab {
+	color: #767b88 !important;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+.aboutframe {
+	padding: 1em !important;
+	background: rgba(43, 46, 49, 0.45) !important;
+}
+
+.aboutcontent {
+	color: #fff;
+}
+
+.formDialogHeaderTitle,
+.pageTitle {
+	color: #dbe2ea !important;
+}
+
+.starIcon {
+    color: #f2b01e !important;
+}
+
+.playstatebutton-icon-played {
+    color: #62976a !important;
+}
+
+.detailRibbon {
+    background-color: rgba(32,32,32,.3);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.layout-tv .detailRibbon {
+    background: none;
+}
+
+.mediaInfoItem {
+	color: #bdcbce !important;
+}
+
+.itemName {
+	color: #7c898b !important;
+	text-shadow: 3px 3px 6px #171716;
+}
+
+.formDialogHeader:not(.formDialogHeader-clear) {
+	background-color: #282828;
+    color: #8b877f;
+    -webkit-box-shadow: 0 0.0725em 0.29em 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 0.0725em 0.29em 0 rgba(0, 0, 0, 0.37);
+}
+
+.cardText-secondary,
+.guide-programNameCaret,
+.listItem .secondary,
+.nowPlayingBarSecondaryText,
+.programSecondaryTitle,
+.secondaryText {
+	color: #717274;
+	font-size: 85%;
+}
+
+.skinHeader.osdHeader {
+	background: linear-gradient(180deg,hsla(0, 9.1%, 2.2%, 0.55),hsla(0,0%,6%,0));
+	height: 6.5em;
+	transition: opacity .6s ease-out;
+}
+
+.jstree-default .jstree-wholerow-clicked {
+    background: #edeabc !important;
+}
+
+.button-accent-flat {
+	color: #4f4c41 !important;
+	text-shadow: 1px 1px 15px #8c8c8c !important;
+}
+
+.emby-tabs,
+.emby-tab-button {
+	overflow: visible !important;
+}
+
+.material-icons.favorite::before {
+    content: "\e87e";
+}
+
+.material-icons.favorite.ratingbutton-icon-withrating::before {
+	content: "\e87d";
+}
+
+.ratingbutton-icon-withrating {
+    color: #913079 !important;
+}
+
+.cardOverlayContainer {
+	background: rgba(42, 42, 42, 0.8);
+}
+
+.navMenuOptionText {
+	color: #ddd;
+}
+
+.sidebarHeader {
+	color: #8b877f;
+}
+
+.listItemAside {
+	color: #4d6783;
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+	background-color: #646c70;
+}
+
+/* fix for TV Layout */
+
+.layout-tv .detailPageWrapperContainer {
+	margin-top: 2%;
+}
+
+/* upNext dialog box */
+
+.upNextContainer {
+	background: #616567;
+	color: #282828;
+	width: auto;
+	overflow: hidden;
+	margin: 0 0 0 0;
+	position: fixed;
+	bottom: 3%;
+	right: 1%;
+	will-change: unset;
+}
+
+.upNextDialog-countdownText {
+	color: #fff;
+}
+
+.upNextDialog-button {
+	background: #e0e6e6;
+}
+
+.upNextDialog-button:focus {
+	transform: scale(1.1) !important;
+	color: #fff !important;
+	background: #a3abb0 !important;
+}
+
+legend {
+	padding: 0 10px 0 10px;
+	font-weight: 600 !important;
+	text-shadow: 2px 2px 4px #313638;
+	color: #989da1;
+}
+
+/* checkbox widget */
+
+@keyframes check-in {
+	from {transform: scale(0);}
+	to {transform: scale(1.8);}
+}
+
+.checkboxIcon-checked {
+	color: #888 !important;
+	padding-left: .2em;
+	padding-bottom: .2em;
+	transform: scale(1.5);
+	text-shadow: 1px 2px 3px #1e1d25;
+	animation-name: check-in;
+	animation-duration: .15s;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.checkboxOutline {
+	transform: scale(0.78);
+	border: .2em solid rgb(97, 213, 233);
+	border-radius: 100%;
+	overflow: visible;
+}
+
+.checkboxOutline > .material-icons {
+	text-shadow: 2px 2px 4px #000;
+}
+
+.emby-checkbox + span + .checkboxOutline {
+    border-color: #7e7e7e;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline {
+	background-color: rgb(62, 69, 74);
+}
+
+.emby-checkbox:hover:not(:disabled) + span + .checkboxOutline,
+.emby-checkbox:hover:not(:disabled) + span + .checkboxOutline > .checkboxIcon-checked,
+.emby-checkbox:focus + span + .checkboxOutline,
+.emby-checkbox:focus + span + .checkboxOutline > .checkboxIcon-checked {
+	border-color: #ccc;
+	color: #ccc !important;
+}
+
+/* Pseudo radio widget (a radio button that allows deselecting) */
+/* based on the checkbox widget */
+
+.radio > .checkboxLabel,
+.radio + .fieldDescription {
+	margin-bottom: .3em !important;
+	margin-left: -.3em !important;
+}
+
+.radio > * > .checkboxIcon-checked,
+.radio > * > .checkboxIcon-unchecked {
+	color: #888 !important;
+	font-size: 170%;
+	text-shadow: 1px 2px 3px #1e1d25;
+}
+
+.radio.emby-checkbox + span + .checkboxOutline {
+	border: none !important;
+}
+
+.radio.emby-checkbox:checked + span + .checkboxOutline {
+	background-color: rgb(62, 69, 74);
+}
+
+.radio:hover:not(:disabled) + * + .checkboxOutline > .checkboxIcon-checked,
+.radio:hover:not(:disabled) + * + .checkboxOutline > .checkboxIcon-unchecked,
+.radio:focus + * + .checkboxOutline > .checkboxIcon-checked,
+.radio:focus + * + .checkboxOutline > .checkboxIcon-unchecked {
+	color: #ccc !important;
+} 
+
+.headerTop {
+	height: 3rem;
+    padding: .54em 0em .54em 0em !important;
+}
+
+.libraryPage {
+	padding-top: 4.3em !important;
+}
+
+.headerUserButtonRound {
+	border: 1px solid rgb(136, 157, 167);
+}
+
+.userProfileImage {
+	border: 6px ridge rgb(136, 157, 167);
+}
+
+.headerLeft, .headerRight {
+	overflow: visible !important;
+	margin-right: .5em;
+	margin-left: .5em;
+}
+
+.headerTop {
+	overflow: visible;
+}
+
+div[data-role="controlgroup"] a.ui-btn-active {
+	background: #84989f !important;
+	color: #fff;
+}
+
+.radioButtonLabel,
+.emby-collapsible-button {
+	color: rgb(117, 129, 138);
+	font-size: .9em !important;
+ }
+ 
+.collapseContent {
+	color: rgb(86, 99, 107) !important;
+	background-color: #2d2d2d !important; 
+ }
+ 
+.iconOsdProgressInner {
+	background: rgb(221, 219, 225);
+}
+
+option.selected {
+	color: #fff;
+}
+
+/* disabled slider */
+
+.sliderContainer-settings.disabled > .sliderLabel {
+	color: #3f4650;
+}
+
+.sliderContainer-settings.disabled  .mdl-slider-background, 
+.sliderContainer-settings.disabled  .mdl-slider-background-flex {
+	box-shadow: none;
+	background: #3f4650;
+}
+
+.sliderContainer-settings.disabled .fieldDescription,
+.sliderContainer-settings.disabled .sliderBubble {
+	color: #454d59;
+	visibility: hidden;
+}
+
+.sliderContainer-settings.disabled .mdl-slider-background-lower {
+	background: none;
+}
+
+.sliderContainer-settings.disabled .mdl-slider {
+	visibility: hidden;
+}
+
+fieldset {
+	padding: 1.5em 2em 0 2em;
+	margin: 0 0 2em 0;
+	border: 3px groove #363d43 !important;
+}
+
+.fieldDescription {
+	color: #646e78;
+	font-style: italic;
+	font-size: 85%;
+}
+
+.LangDetailsHeader {
+	color: #818b96;
+	font-size: 100%;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.material-icons.warningIcon,
+.material-icons.hubIcon,
+.material-icons.doneIcon {
+	color: rgb(167, 172, 176) !important;
+}
+
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+    border-color: rgb(201, 160, 230) !important;
+}
+
+.button-link,
+.checkboxLabelFocused,
+.selectLabelFocused,
+.inputLabelFocused,
+.sliderLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: #aaa !important;
+}
+
+.button-link {
+	text-align: left;
+}
+
+/* buttons */
+
+button.emby-button {
+	font-weight: 600;
+	flex-grow: 0 !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.btnAddServer,
+.btnSelectServer,
+.btnManual,
+.btnForgotPassword,
+.btnQuick,
+.btnSave,
+#btnRestartServer,
+#btnShutdown,
+#btnResetPassword,
+#btnResetEasyPassword,
+#btnDeleteImage
+.btnOption,
+.btnRevoke,
+.btnRefresh,
+.submit,
+.button-submit,
+.cancel,
+.button-cancel {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border: 0.05em solid rgb(61, 68, 73);
+}
+
+.btnSelectServer,
+.btnManual,
+.btnQuick,
+.btnSave,
+.btnRevoke,
+.btnForgotPassword,
+.cancel,
+.button-cancel,
+#btnResetPassword,
+#btnResetEasyPassword,
+.button-submit {
+	margin: .5em auto .5em auto !important;
+	width: 20em !important;
+}
+
+#btnDeleteImage {
+	margin: .5em auto .5em auto !important;
+	width: 15em !important;
+}
+
+button.submit {
+	margin: 1em !important;
+	width: auto !important;
+}
+
+.btnManual,
+.btnForgotPassword,
+.btnQuick,
+.btnOption,
+.btnRefresh,
+.btnSelectServer,
+.submit,
+.button-submit {
+	color: #5e6871 !important;
+	background-color: #333539;
+	/*background: linear-gradient(105deg, rgb(38, 41, 44) 0%, rgb(64, 72, 78) 30%, rgb(50, 56, 62) 70%, rgb(25, 32, 36) 100%);*/
+	box-shadow: 0 0 4px #17191a;
+}
+
+#btnRestartServer,
+#btnShutdown,
+#btnResetPassword,
+#btnResetEasyPassword,
+#btnDeleteImage,
+.btnRevoke,
+.button-delete,
+.button-cancel,
+.cancel,
+.button-cancel {
+	background-color: rgb(82, 99, 109);
+	box-shadow: 0 0 4px #17191a;
+	color: rgb(52, 61, 63) !important;
+}
+
+.button-delete:hover:not(:disabled),
+.btnRevoke:hover:not(:disabled),
+.btnRefresh:hover:not(:disabled),
+#btnRestartServer:hover:not(:disabled),
+#btnShutdown:hover:not(:disabled),
+#btnResetPassword:hover:not(:disabled),
+#btnResetEasyPassword:hover:not(:disabled),
+#btnDeleteImage:hover:not(:disabled),
+.btnSelectServer:hover:not(:disabled),
+.submit:hover:not(:disabled),
+.button-submit:hover:not(:disabled) {
+    color: #d7e9eb !important;
+    background-color: rgba(36, 43, 48, 0.8) !important;
+    box-shadow: 0 0 4px #d7e0e8, 0 0 6px #cccedf, 0 0 17px #b2c3cf, 0 0 38px #a3bec9;
+}
+
+.button-delete:focus,
+.btnRevoke:focus,
+.btnRefresh:focus,
+#btnRestartServer:focus,
+#btnShutdown:focus,
+#btnResetPassword:focus,
+#btnResetEasyPassword:focus,
+#btnDeleteImage:focus,
+.btnSelectServer:focus,
+.submit:focus,
+.button-submit:focus {
+	color: rgba(255, 255, 255, 0.8) !important;
+	background-color: rgba(36, 43, 48, 0.8) !important;
+}
+
+.button-delete:active,
+.btnRevoke:active,
+.btnRefresh:active,
+#btnRestartServer:active,
+#btnShutdown:active,
+#btnResetPassword:active,
+#btnResetEasyPassword:active,
+#btnDeleteImage:active,
+.button-submit:active {
+	color: white !important;
+	background-color: rgba(36, 43, 48, 0.8) !important;
+}
+
+.button-cancel:hover:not(:disabled),
+.cancel:hover:not(:disabled) {
+	color: rgba(197, 208, 218, 0.8) !important;
+	background-color: rgba(32, 38, 39, 0.8) !important;
+	box-shadow: 0 0 4px #a8cac0, 0 0 6px #95c4b1, 0 0 17px #a0ceb8, 0 0 38px #fcfdfd;
+}
+
+.button-cancel:focus,
+.cancel:focus {
+	color: white !important;
+	background-color: rgba(32, 38, 39, 0.8) !important;
+}
+
+.button-cancel:active,
+.cancel:active {
+	color: white !important;
+	background-color: rgba(32, 38, 39, 0.8) !important;
+}
+
+.button-alt {
+	background-color: rgb(79, 76, 93);
+	box-shadow: 0 0 4px #17191a;
+	color: rgb(32, 23, 38) !important;
+	border: 0.05em solid rgb(120, 97, 118);
+}
+
+.button-alt:hover:not(:disabled) {
+	color: rgba(229, 222, 233, 0.8) !important;
+	background-color: rgba(33, 31, 39, 0.8) !important;
+	box-shadow: 0 0 4px #dfd3e6, 0 0 6px #d9c6e6, 0 0 17px #d1c4da, 0 0 38px #ebe4ed;
+}
+
+.button-alt:focus {
+	color: white !important;
+	background-color: rgba(33, 31, 39, 0.8) !important;
+}
+
+.button-alt:active {
+	color: white !important;
+	background-color: rgba(33, 31, 39, 0.8) !important;
+}
+
+.trackSelectionFieldContainer > .selectLabel,
+.detailsGroupItem > .label {
+	color: white;
+	font-weight: 600;
+}
+
+.pageTabContent {
+    padding-top: 1.5em !important;
+}
+
+.sectionTitle-cards,
+div:not(.sectionTitleContainer-cards) > .sectionTitle-cards,
+.sectionTitleContainer-cards {
+		padding-top: 0px;
+}
+
+.radioButtonLabel,
+.emby-collapsible-button,
+.emby-collapsible-title,
+.label,
+.listItemBodyText,
+.paperListLabel,
+.checkboxListLabel,
+.textareaLabel,
+.selectLabel,
+.sliderLabel,
+.checkboxLabel,
+.inputLabel {
+	font-weight: 400;
+	color: #858d9f;
+	font-size: 1em !important;
+}
+
+.detailSectionHeader, 
+.sectionTitle {
+	color : #dbe2ea;
+	text-shadow: 1px 1px 3px #171c1e;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.paperList,
+.visualCardBox {
+    background-color: #353a3e;
+	border: 3px ridge #3a434c;
+	padding: .3em;
+}
+
+/* tab buttons */
+
+.emby-tab-button {
+    color: rgb(112, 123, 128);
+	overflow: visible;
+}
+
+.emby-tab-button:hover,
+.emby-tab-button-active {
+    color: #fff !important;
+}
+
+.emby-tab-button-active {
+	animation-name: buttonfocus !important;
+	animation-duration: .15s !important;
+	transform: scale(1.2) !important;
+}
+
+.emby-tab-button:hover:not(:disabled) > * > .material-icons {
+    color: rgb(175, 184, 193) !important;
+}
+
+.emby-tab-button-active > * > .material-icons,
+.emby-tab-button-active:focus > * > .material-icons,
+.emby-tab-button-active:hover:not(:disabled) > * > .material-icons {
+	text-shadow: 0 0 5px #060606, 0 0 10px #4c4645, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fcfcfc, 0 0 30px #fcfcfb, 0 0 35px #01cdfc !important;
+    color: #fff !important;
+	animation-name: buttonfocus !important;
+	animation-duration: .15s !important;
+	transform: scale(1.5) !important;
+}
+
+.emby-tabs-button > * > .material-icons {
+	color: rgb(175, 184, 193) !important;
+	font-size: 1.5rem !important;
+	transform: scale(1) !important;
+	text-shadow: 0 0 5px #060606 !important;
+}
+
+/* select widget */
+
+[label],
+select option:disabled {
+	color: rgb(76, 94, 106);
+}
+
+.selectArrow {
+	text-shadow: 2px 2px 3px #1e1d25;
+	color: #909090;
+}
+
+option:not(:disabled), 
+.emby-select-withcolor {
+	color: #a2a5ae;
+	background: #333539;
+	border: 0.05em solid rgb(61, 68, 73);
+	font-weight: 600;
+	padding: .5em 1.9em .5em .5em !important;
+}
+
+.emby-select-withcolor:focus,
+.emby-select-tv-withcolor:focus {
+    border-color: #fff;
+}
+
+select option:selected {
+	color: #ffffff !important;
+	background: #282828 !important;
+}
+
+.defaultCardBackground1 {
+    background-color: #374b61;
+}
+
+.defaultCardBackground2 {
+    background-color: #23262d;
+}
+
+.defaultCardBackground3 {
+    background-color: #454d56;
+}
+
+.defaultCardBackground4 {
+    background-color: #606970;
+}
+
+.defaultCardBackground5 {
+    background-color: #373f48;
+}
+
+.actionsheetDivider {	
+	color: rgb(33, 34, 35);
+	font-weight: 600;
+	background: rgb(49, 59, 65);
+}
+
+.listItem-button:hover:not(:disabled) {
+	color: #c1c8d4 !important;
+	background-color: #35373b;
+}
+
+.listItem-button:focus {
+	color: #c1c8d4 !important;
+	background-color: #404040 !important;
+}
+
+.btnTryIt {
+	font-size: 0.8rem;
+	border-radius: 10%;
+	background-color: #333539;
+	background: linear-gradient(105deg, rgb(126, 132, 139) 0%, rgb(139, 150, 159) 30%, rgb(85, 88, 92) 70%, rgb(50, 58, 63) 100%);
+	box-shadow: 0 0 4px #17191a;
+	border: 0.05em solid rgb(61, 68, 73);
+	text-shadow: rgb(30, 38, 43) -1px -1px 1px;
+}
+
+.weatherbotScreenSaver,
+.clockScreenSaver {
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.ssFailure,
+.ssForeplane,
+.ssForeplane > * > .material-icons {
+	color: #d7e2e9;
+	text-shadow: 0 0 10px #060606, 0 0 20px #4c4645, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fcfcfc, 0 0 60px #fcfcfb, 0 0 70px #01cdfc;
+	background: rgba(10, 10, 10, 0);
+}
+
+.ssClockDate {
+	margin: 30% 0px 0px 0px;
+}
+
+.ssWeatherData,
+.ssClockTime {
+	font-family: "Shangai";
+}
+
+.ssBackplane {
+	background: rgba(12, 13, 14, 0.7);
+}
+
+.cardPadder .cardImageIcon {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.headerWthMain {
+	color: rgba(121, 135, 144, 0.8) !important;
+	text-shadow: 1px 1px 8px #1f2443 !important;
+}
+
+.headerWthButton > fieldset {
+	margin: .1rem .5rem .1rem .5rem !important;
+	border: 2px groove #363d43 !important;
+}
+
+.headerWthTemp {
+	font-family: "Shangai";
+	font-size: 170% !important;
+}
+
+.headerWthIconBg {
+	background: rgba(238, 245, 255, 0.3) !important;
+}
+
+.infoDetails {
+	font-size: 90% !important;
+}
+
+#backdropWidget {
+	background: rgba(39, 45, 51, 0.5);
+}
+
+
+
+

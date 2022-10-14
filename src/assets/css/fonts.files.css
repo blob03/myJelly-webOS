@@ -1,0 +1,17 @@
+/* 
+	Extra fonts used for subtitles and the digital clock in the top bar.
+	All selected fonts have compatible licensing terms which allow redistribution and free use 
+	for any non profit project such as Jellyfin.
+*/
+
+@font-face {font-family: "Quicksand-Regular";
+    src: url("/assets/fonts/Quicksand/static/Quicksand-Regular.ttf") format("truetype"); /* chrome firefox */
+}
+
+@font-face {font-family: "Quicksand-Bold";
+    src: url("/assets/fonts/Quicksand/static/Quicksand-Bold.ttf") format("truetype"); /* chrome firefox */
+}
+
+@font-face {font-family: "Quicksand-Light";
+    src: url("/assets/fonts/Quicksand/static/Quicksand-Light.ttf") format("truetype"); /* chrome firefox */
+}
