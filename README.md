@@ -4,15 +4,22 @@
 Jellyfin webOS wrapper modified to supplement myJelly.
 There is not much difference with the official wrapper, mostly cosmetic changes.
 
-link to original repository:
+link to official repository:
 https://github.com/jellyfin/jellyfin-webos
 
 <strong>Please Note that the official wrapper, for at least WebOS 6 and 5, can now be installed directly through the TV's Content Store.</strong>
 From the main menu, open the Content Store and from there, search for the keyword "jellyfin" then install.
+<br><br>
+Installing the wrapper from the Content Store offers the benefit of not requiring the smart TV to be in developper mode anymore
+and as a result there is no need to manually renew the developper mode every 2 days or so.
 <br>
-If you need more help, check out this step-by-step application installation guide:
+So in most cases, installing the Content Store application is the way to go if your smart TV model offers it.
+<br>
+If you need help with the Content Store, check out this step-by-step application installation guide:
 <br>
 https://www.lg.com/us/support/help-library/installing-apps-from-the-lg-content-store-CT32003203-20152176397085
+<br><br>
+If your TV model doesn't support Jellyfin yet, continue reading and learn how to build and push a custom wrapper into your TV.
 <br>
 
 # Jellyfin for webOS
