@@ -1,15 +1,18 @@
 
 
 # myJelly-webOS
-webOS wrapper modified to supplement myJelly.
+Jellyfin webOS wrapper modified to supplement myJelly.
+There is not much difference with the official wrapper, mostly cosmetic changes.
 
-links to original repositories:
+link to original repository:
+https://github.com/jellyfin/jellyfin-webos
 
-Jellyfin LG launcher: https://github.com/jellyfin/jellyfin-webos
+<strong>Please Note that the official wrapper, for at least WebOS 6 and 5, can now be installed directly through the TV's Content Store.</strong>
+From the main menu, open the Content Store and from there, search for the keyword "jellyfin" then install.
 <br>
-Official web client: https://github.com/jellyfin/jellyfin-web
+If you need more help, check out this step-by-step application installation guide:
 <br>
-Jellyfin server: https://github.com/jellyfin/jellyfin
+https://www.lg.com/us/support/help-library/installing-apps-from-the-lg-content-store-CT32003203-20152176397085
 <br>
 
 # Jellyfin for webOS
