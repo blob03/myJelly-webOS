@@ -1,4 +1,7 @@
-
+<h2 align="center">That repository is no longer maintained</h2>
+<h2 align="center">New home is located at https://bitbucket.org/myjelly/workspace/overview/</h2>
+</br>
+</br>
 
 # myJelly-webOS
 Jellyfin webOS wrapper modified to supplement myJelly.
